@@ -13,6 +13,8 @@
 		6B06CAA32A20C4DE00A2C675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B06CAA12A20C4DE00A2C675 /* Main.storyboard */; };
 		6B06CAA52A20C4DE00A2C675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B06CAA42A20C4DE00A2C675 /* Assets.xcassets */; };
 		6B06CAA82A20C4DE00A2C675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B06CAA62A20C4DE00A2C675 /* LaunchScreen.storyboard */; };
+		6B06CAB12A20C7E800A2C675 /* ColorsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06CAAF2A20C7E800A2C675 /* ColorsCollectionViewCell.swift */; };
+		6B06CAB22A20C7E800A2C675 /* ColorsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B06CAB02A20C7E800A2C675 /* ColorsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6B06CAA42A20C4DE00A2C675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B06CAA72A20C4DE00A2C675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B06CAA92A20C4DE00A2C675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B06CAAF2A20C7E800A2C675 /* ColorsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsCollectionViewCell.swift; sourceTree = "<group>"; };
+		6B06CAB02A20C7E800A2C675 /* ColorsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorsCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6B06CAA42A20C4DE00A2C675 /* Assets.xcassets */,
 				6B06CAA62A20C4DE00A2C675 /* LaunchScreen.storyboard */,
 				6B06CAA92A20C4DE00A2C675 /* Info.plist */,
+				6B06CAAF2A20C7E800A2C675 /* ColorsCollectionViewCell.swift */,
+				6B06CAB02A20C7E800A2C675 /* ColorsCollectionViewCell.xib */,
 			);
 			path = NestedGroupsQues5;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				6B06CAA82A20C4DE00A2C675 /* LaunchScreen.storyboard in Resources */,
 				6B06CAA52A20C4DE00A2C675 /* Assets.xcassets in Resources */,
+				6B06CAB22A20C7E800A2C675 /* ColorsCollectionViewCell.xib in Resources */,
 				6B06CAA32A20C4DE00A2C675 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				6B06CAA02A20C4DE00A2C675 /* ViewController.swift in Sources */,
 				6B06CA9C2A20C4DE00A2C675 /* AppDelegate.swift in Sources */,
+				6B06CAB12A20C7E800A2C675 /* ColorsCollectionViewCell.swift in Sources */,
 				6B06CA9E2A20C4DE00A2C675 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
